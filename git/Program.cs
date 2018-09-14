@@ -47,12 +47,15 @@ namespace Calc
             minus = plus = div = mult = loop = false;
             double firstVal=0, secondVal=0, result = 0;
             Calculator calc = new Calculator();
+		
+			Console.WriteLine("Second commit");
 			
             for(;;)
             {
                 try
                 {
                     Console.WriteLine("\nInput first value");
+
                     firstVal = Convert.ToDouble(Console.ReadLine());
                     result = firstVal;
                     loop = true;
