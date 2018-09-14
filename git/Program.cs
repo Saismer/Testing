@@ -47,8 +47,7 @@ namespace Calc
             minus = plus = div = mult = loop = false;
             double firstVal=0, secondVal=0, result = 0;
             Calculator calc = new Calculator();
-			
-			Console.WriteLine("Changes in develop");
+			Console.WriteLine("Calculator");
 		
             for(;;)
             {
