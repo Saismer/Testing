@@ -1,0 +1,6 @@
+D:\git\Driver\Driver\bin\Debug\Driver.exe.config
+D:\git\Driver\Driver\bin\Debug\Driver.exe
+D:\git\Driver\Driver\bin\Debug\Driver.pdb
+D:\git\Driver\Driver\obj\Debug\Driver.exe
+D:\git\Driver\Driver\obj\Debug\Driver.pdb
+D:\git\Driver\Driver\obj\Debug\Driver.csprojResolveAssemblyReference.cache
