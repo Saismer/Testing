@@ -22,7 +22,6 @@ namespace Driver
 
             page.cityFrom.SendKeys("Moscow" + OpenQA.Selenium.Keys.Enter);
             System.Threading.Thread.Sleep(2000);
-
             page.cityTo.SendKeys("Moscow" + OpenQA.Selenium.Keys.Enter);
 
             page.date.Click();
@@ -32,22 +31,7 @@ namespace Driver
             System.Threading.Thread.Sleep(2000);
 
             page.searchFlight.Click();
-            System.Threading.Thread.Sleep(2000);      
-                 
-            page.editMode.Click();
             System.Threading.Thread.Sleep(2000);
-
-            page.edit.Click();
-            System.Threading.Thread.Sleep(2000);
-
-            page.cityFrom.Clear();
-            page.cityFrom.SendKeys("Minsk");
-            page.focus.Click();
-            System.Threading.Thread.Sleep(2000);
-
-            page.searchRightFlight.Click();
-            System.Threading.Thread.Sleep(20000);
-            browser.Quit();
         }
     }
 }
