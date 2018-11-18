@@ -42,9 +42,6 @@ namespace Driver
             IWebElement searchFlight = browser.FindElement(By.XPath("//*[@id=\"sidebar\"]/div/div/div/div/div[2]/div[4]/a"));
             searchFlight.Click();
             System.Threading.Thread.Sleep(2000);      
-                 
-            System.Threading.Thread.Sleep(20000);
-            browser.Quit();
         }
     }
 }
