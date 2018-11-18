@@ -1,5 +1,0 @@
-D:\Study\4 course\1\Testing\TriangleLib\TriangleLib\bin\Debug\TriangleLib.dll
-D:\Study\4 course\1\Testing\TriangleLib\TriangleLib\bin\Debug\TriangleLib.pdb
-D:\Study\4 course\1\Testing\TriangleLib\TriangleLib\obj\Debug\TriangleLib.csprojResolveAssemblyReference.cache
-D:\Study\4 course\1\Testing\TriangleLib\TriangleLib\obj\Debug\TriangleLib.dll
-D:\Study\4 course\1\Testing\TriangleLib\TriangleLib\obj\Debug\TriangleLib.pdb

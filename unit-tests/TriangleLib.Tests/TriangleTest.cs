@@ -16,11 +16,8 @@ namespace TriangleLib.Tests
             bool expected = true;
 
             Triangle tr = new Triangle();
-
             bool actual = tr.CheckTriangle(a, b, c);
-
             Assert.AreEqual(expected, actual);
-
         }
 
         //2
@@ -33,11 +30,8 @@ namespace TriangleLib.Tests
             bool expected = false;
 
             Triangle tr = new Triangle();
-
             bool actual = tr.CheckTriangle(a, b, c);
-
             Assert.AreEqual(expected, actual);
-
         }
 
         //3
@@ -50,11 +44,8 @@ namespace TriangleLib.Tests
             bool expected = false;
 
             Triangle tr = new Triangle();
-
             bool actual = tr.CheckTriangle(a, b, c);
-
             Assert.AreEqual(expected, actual);
-
         }
 
         //4
@@ -67,11 +58,8 @@ namespace TriangleLib.Tests
             bool expected = false;
 
             Triangle tr = new Triangle();
-
             bool actual = tr.CheckTriangle(a, b, c);
-
             Assert.AreEqual(expected, actual);
-
         }
 
         //5
@@ -84,11 +72,8 @@ namespace TriangleLib.Tests
             bool expected = true;
 
             Triangle tr = new Triangle();
-
             bool actual = tr.CheckTriangle(a, b, c);
-
             Assert.AreEqual(expected, actual);
-
         }
 
         //6
@@ -101,11 +86,8 @@ namespace TriangleLib.Tests
             bool expected = false;
 
             Triangle tr = new Triangle();
-
             bool actual = tr.CheckTriangle(a, b, c);
-
             Assert.AreEqual(expected, actual);
-
         }
 
         //7
@@ -118,11 +100,8 @@ namespace TriangleLib.Tests
             bool expected = true;
 
             Triangle tr = new Triangle();
-
             bool actual = tr.CheckTriangle(a, b, c);
-
             Assert.AreEqual(expected, actual);
-
         }
 
         //8
@@ -135,11 +114,8 @@ namespace TriangleLib.Tests
             bool expected = false;
 
             Triangle tr = new Triangle();
-
             bool actual = tr.CheckTriangle(a, b, c);
-
             Assert.AreEqual(expected, actual);
-
         }
 
         //9
@@ -152,11 +128,8 @@ namespace TriangleLib.Tests
             bool expected = true;
 
             Triangle tr = new Triangle();
-
             bool actual = tr.CheckTriangle(a, b, c);
-
             Assert.AreEqual(expected, actual);
-
         }
 
         //9
@@ -169,11 +142,8 @@ namespace TriangleLib.Tests
             bool expected = true;
 
             Triangle tr = new Triangle();
-
             bool actual = tr.CheckTriangle(a, b, c);
-
             Assert.AreEqual(expected, actual);
-
         }
     }
 }

@@ -1,9 +1,0 @@
-D:\Study\4 course\1\Testing\TriangleLib\TriangleLib.Tests\bin\Debug\TriangleLib.Tests.dll
-D:\Study\4 course\1\Testing\TriangleLib\TriangleLib.Tests\bin\Debug\TriangleLib.Tests.pdb
-D:\Study\4 course\1\Testing\TriangleLib\TriangleLib.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-D:\Study\4 course\1\Testing\TriangleLib\TriangleLib.Tests\bin\Debug\TriangleLib.dll
-D:\Study\4 course\1\Testing\TriangleLib\TriangleLib.Tests\bin\Debug\TriangleLib.pdb
-D:\Study\4 course\1\Testing\TriangleLib\TriangleLib.Tests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
-D:\Study\4 course\1\Testing\TriangleLib\TriangleLib.Tests\obj\Debug\TriangleLib.Tests.csprojResolveAssemblyReference.cache
-D:\Study\4 course\1\Testing\TriangleLib\TriangleLib.Tests\obj\Debug\TriangleLib.Tests.dll
-D:\Study\4 course\1\Testing\TriangleLib\TriangleLib.Tests\obj\Debug\TriangleLib.Tests.pdb
