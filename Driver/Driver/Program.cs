@@ -21,35 +21,28 @@ namespace Driver
             System.Threading.Thread.Sleep(2000);
 
             IWebElement cityTo = browser.FindElement(By.XPath("//*[@id=\"sidebar\"]/div/div/div/div/div[2]/div[3]/div/div[2]/div/input"));
-            cityTo.SendKeys("Moscow" + OpenQA.Selenium.Keys.Enter);
+            cityTo.SendKeys("San Francisco" + OpenQA.Selenium.Keys.Enter);
 
             IWebElement date = browser.FindElement(By.XPath("//*[@id=\"sidebar\"]/div/div/div/div/div[2]/div[3]/div/div[4]/div/div[1]"));
             date.Click();
             System.Threading.Thread.Sleep(2000);
 
-            IWebElement datePick = browser.FindElement(By.XPath("//*[@id=\"sidebar\"]/div/div/div/div/div[2]/div[3]/div/div[5]/div/div[2]/div[1]/table/tbody/tr[5]/td[3]/span"));
+            IWebElement datePick = browser.FindElement(By.XPath("//*[@id=\"sidebar\"]/div/div[1]/div/div/div[2]/div[3]/div/div[5]/div/div[2]/div[2]/table/tbody/tr[5]/td[6]/span"));
             datePick.Click();
             System.Threading.Thread.Sleep(2000);
 
+            IWebElement returnFlight = browser.FindElement(By.XPath("//*[@id=\"sidebar\"]/div/div[1]/div/div/div[2]/div[4]/div[1]/div[1]"));
+            returnFlight.Click();
+            System.Threading.Thread.Sleep(2000);
+
+            IWebElement datePickSecond = browser.FindElement(By.XPath("//*[@id=\"sidebar\"]/div/div[1]/div/div/div[2]/div[3]/div/div[5]/div/div[2]/div[2]/table/tbody/tr[5]/td[2]/span"));
+            datePickSecond.Click();
+            System.Threading.Thread.Sleep(2000);
+         
             IWebElement searchFlight = browser.FindElement(By.XPath("//*[@id=\"sidebar\"]/div/div/div/div/div[2]/div[4]/a"));
             searchFlight.Click();
             System.Threading.Thread.Sleep(2000);      
                  
-            IWebElement editMode = browser.FindElement(By.XPath("//*[@id=\"sidebar\"]/div/div/div/div/div[2]/div[2]/ul/li/div[1]/div[1]/div[2]"));
-            editMode.Click();
-            System.Threading.Thread.Sleep(2000);
-
-            IWebElement edit = browser.FindElement(By.XPath("//*[@id=\"sidebar\"]/div/div/div/div/div[2]/div[2]/ul/li/div[1]/div[2]/div[1]"));
-            edit.Click();
-            System.Threading.Thread.Sleep(2000);
-
-            cityFrom.Clear();
-            cityFrom.SendKeys("Minsk");
-            cityTo.Click();
-            System.Threading.Thread.Sleep(2000);
-
-            IWebElement searchRightFlight = browser.FindElement(By.XPath("//*[@id=\"sidebar\"]/div/div/div/div/div[2]/div[4]/a"));
-            searchRightFlight.Click();
             System.Threading.Thread.Sleep(20000);
             browser.Quit();
         }

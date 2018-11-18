@@ -13,3 +13,6 @@ D:\Driver\Driver\bin\Debug\Driver.pdb
 D:\git\PageFactory\Driver\bin\Debug\Driver.exe.config
 D:\git\PageFactory\Driver\obj\Debug\Driver.exe
 D:\git\PageFactory\Driver\obj\Debug\Driver.pdb
+D:\git\PageFactory\Driver\bin\Debug\Driver.exe
+D:\git\PageFactory\Driver\bin\Debug\Driver.pdb
+D:\git\PageFactory\Driver\obj\Debug\Driver.csprojResolveAssemblyReference.cache
