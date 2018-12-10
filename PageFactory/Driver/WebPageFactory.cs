@@ -12,7 +12,7 @@ namespace Driver
     {
         public WebPageFactory()
         {
-            PageFactory.InitElements(Program.browser, this);
+            PageFactory.InitElements(Tests.browser, this);
         }
 
         [FindsBy(How = How.ClassName, Using = "awadWidget-aviaInput")]
@@ -24,7 +24,7 @@ namespace Driver
         [FindsBy(How = How.XPath, Using = "//*[@id=\"sidebar\"]/div/div/div/div/div[2]/div[3]/div/div[4]/div/div[1]")]
         public IWebElement date;
 
-        [FindsBy(How = How.XPath, Using = "//*[@id=\"sidebar\"]/div/div[1]/div/div/div[2]/div[3]/div/div[5]/div/div[2]/div[2]/table/tbody/tr[5]/td[5]/span")]
+        [FindsBy(How = How.XPath, Using = "//*[@id=\"sidebar\"]/div/div/div/div/div[2]/div[3]/div/div[5]/div/div[2]/div[2]/table/tbody/tr[5]/td[3]/span")]
         public IWebElement datePick;
 
         [FindsBy(How = How.XPath, Using = "//*[@id=\"sidebar\"]/div/div/div/div/div[2]/div[4]/a")]
