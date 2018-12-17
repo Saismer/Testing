@@ -74,7 +74,6 @@ namespace Framework.Test
             Assert.AreEqual(false, steps.DeleteAdults());
         }
 
-
         //Test #6 from test-cases
         [Test]
         public void CheckComplexRoute()
