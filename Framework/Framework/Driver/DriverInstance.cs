@@ -5,20 +5,22 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Support.UI;
 
 namespace Framework.Driver
 {
     class DriverInstance
     {
-        public static IWebDriver driver;
-
-        public DriverInstance() { }
+        private static IWebDriver driver;
+        private DriverInstance() { }
 
         public static IWebDriver GetInstance()
         {
             if (driver == null)
             {
-                driver = new ChromeDriver();
+                driver = new FirefoxDriver();
+                driver.Manage().Timeouts().ImplicitWait.Add(TimeSpan.FromSeconds(30));
                 driver.Manage().Window.Maximize();
             }
             return driver;
