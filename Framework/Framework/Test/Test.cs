@@ -27,7 +27,7 @@ namespace Framework.Test
             steps.CloseBrowser();
         }
 
-        //Test #1 from test-case
+        //Test #1 from test-cases
         [Test]
         public void ReturnFlightWithWrongDate()
         {
