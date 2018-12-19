@@ -20,7 +20,7 @@ namespace Framework.Driver
             if (driver == null)
             {
                 driver = new FirefoxDriver();
-                driver.Manage().Timeouts().ImplicitWait.Add(TimeSpan.FromSeconds(30));
+                driver.Manage().Timeouts().ImplicitWait.Add(TimeSpan.FromSeconds(40));
                 driver.Manage().Window.Maximize();
             }
             return driver;
